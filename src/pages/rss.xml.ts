@@ -8,8 +8,10 @@ import { parse as htmlParser } from "node-html-parser";
 import sanitizeHtml from "sanitize-html";
 import { siteConfig } from "@/config";
 import { getSortedPosts } from "@/utils/content-utils";
+import { legacyImgSize, imgSize, obsidianImgSize } from "@mdit/plugin-img-size";
 
-const markdownParser = new MarkdownIt();
+const markdownParser = MarkdownIt().use(imgSize);
+
 
 // get dynamic import of images as a map collection
 const imagesGlob = import.meta.glob<{ default: ImageMetadata }>(
@@ -24,6 +26,7 @@ export async function GET(context: APIContext) {
 	// Use the same ordering as site listing (pinned first, then by published desc)
 	const posts = (await getSortedPosts()).filter((post) => !post.data.encrypted);
 	const feed: RSSFeedItem[] = [];
+	console.info("====hello...")
 
 	for (const post of posts) {
 		// convert markdown to html string
