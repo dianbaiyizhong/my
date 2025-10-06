@@ -11,7 +11,8 @@ draft: false
 
 
 ## 闪屏
-
-![logo](./images/splash.jpg =300x200)
-
-
+---
+<center>
+<img src="../../../assets/p7i/splash.jpg" width="30%">
+</center>
+---
