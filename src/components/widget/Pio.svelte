@@ -7,7 +7,7 @@ const pioOptions = {
 	mode: pioConfig.mode,
 	hidden: pioConfig.hiddenOnMobile,
 	content: pioConfig.dialog || {},
-	model: pioConfig.models || ["/pio/models/pio/model.json"],
+	model: pioConfig.models || ["/my/pio/models/pio/model.json"],
 };
 
 // 全局Pio实例引用
@@ -65,8 +65,8 @@ function loadPioAssets() {
 	};
 
 	// 按顺序加载脚本
-	loadScript("/pio/static/l2d.js", "pio-l2d-script")
-		.then(() => loadScript("/pio/static/pio.js", "pio-main-script"))
+	loadScript("/my/pio/static/l2d.js", "pio-l2d-script")
+		.then(() => loadScript("/my/pio/static/pio.js", "pio-main-script"))
 		.then(() => {
 			// 脚本加载完成后初始化
 			setTimeout(initPio, 100);

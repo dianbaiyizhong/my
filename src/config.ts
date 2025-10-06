@@ -47,7 +47,7 @@ export const siteConfig: SiteConfig = {
 		src: {
 			desktop: [
 				"/assets/desktop-banner/mhxy/3.png",
-				"/assets/desktop-banner/nba-widget/1.png",
+				"/assets/desktop-banner/nba/1.png",
 				"/assets/desktop-banner/p7i/1.png",
 				"/assets/desktop-banner/hzw/1.png",
 				"/assets/desktop-banner/sao/1.jpg",
@@ -458,7 +458,7 @@ export const sakuraConfig: SakuraConfig = {
 // Pio 看板娘配置
 export const pioConfig: import("./types/config").PioConfig = {
 	enable: true, // 启用看板娘
-	models: ["/pio/models/pio/model.json"], // 默认模型路径
+	models: ["/my/pio/models/pio/model.json"], // 默认模型路径
 	position: "left", // 默认位置在右侧
 	width: 280, // 默认宽度
 	height: 250, // 默认高度

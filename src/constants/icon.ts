@@ -17,7 +17,7 @@ export const defaultFavicons: Favicon[] = [
 		sizes: "180x180",
 	},
 	{
-		src: "/favicon/favicon-light-192.png",
+		src: "/my/favicon/favicon-light-192.png",
 		theme: "light",
 		sizes: "192x192",
 	},
