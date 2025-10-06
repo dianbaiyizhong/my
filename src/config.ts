@@ -47,7 +47,7 @@ export const siteConfig: SiteConfig = {
 		src: {
 			desktop: [
 				"/assets/desktop-banner/mhxy/3.png",
-				"/assets/desktop-banner/nba/1.png",
+				"/assets/desktop-banner/nba-widget/1.png",
 				"/assets/desktop-banner/p7i/1.png",
 				"/assets/desktop-banner/hzw/1.png",
 				"/assets/desktop-banner/sao/1.jpg",
