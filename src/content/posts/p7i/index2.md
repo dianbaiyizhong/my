@@ -54,3 +54,66 @@ draft: false
 <center>
 <img src="../../../assets/p7i/answer_look.jpg" width="30%">
 </center>
+
+## 查看问题
+<center>
+<img src="../../../assets/p7i/question_look.jpg" width="30%">
+</center>
+
+## 关注功能
+<center>
+<img src="../../../assets/p7i/follow.jpg" width="30%">
+</center>
+
+## 充值页面
+<center>
+<img src="../../../assets/p7i/money.jpg" width="30%">
+</center>
+
+## 资金明细
+<center>
+<img src="../../../assets/p7i/money_record.jpg" width="30%">
+</center>
+
+## 订单客服功能
+<center>
+<img src="../../../assets/p7i/order.jpg" width="30%">
+</center>
+
+## 草稿功能
+<center>
+<img src="../../../assets/p7i/draft.jpg" width="30%">
+</center>
+
+
+## 草稿功能
+<center>
+<img src="../../../assets/p7i/draft.jpg" width="30%">
+</center>
+
+## 草稿编辑
+<center>
+<img src="../../../assets/p7i/draft_edit.jpg" width="30%">
+</center>
+
+
+## 收藏的回答
+<center>
+<img src="../../../assets/p7i/answer_collect.jpg" width="30%">
+</center>
+
+## 关注的问题
+<center>
+<img src="../../../assets/p7i/question_follow.jpg" width="30%">
+</center>
+
+## 我的提问
+<center>
+<img src="../../../assets/p7i/answer_self.jpg" width="30%">
+</center>
+
+## 设置
+<center>
+<img src="../../../assets/p7i/setting.jpg" width="30%">
+</center>
+
