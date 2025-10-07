@@ -10,28 +10,16 @@ draft: false
 
 
 
-This blog template is built with [Astro](https://astro.build/). For the things that are not mentioned in this guide, you may find the answers in the [Astro Docs](https://docs.astro.build/).
 
-## Front-matter of Posts
 
-```yaml
----
-title: 刀剑神域-魅族flyme4主题
-published: 2023-09-09
-description: This is the first post of my new Astro blog.
-image: ./cover.jpg
-tags: [Foo, Bar]
-category: Front-end
-draft: false
----
-```
+
 
 
 ---
 
 [img id]: ./sao-theme-01.jpg "Optional title attribute"
 
-![Alt text][img id]
+![50w][img id]
 
 ---
 

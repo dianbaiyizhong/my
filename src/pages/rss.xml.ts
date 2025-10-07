@@ -26,7 +26,6 @@ export async function GET(context: APIContext) {
 	// Use the same ordering as site listing (pinned first, then by published desc)
 	const posts = (await getSortedPosts()).filter((post) => !post.data.encrypted);
 	const feed: RSSFeedItem[] = [];
-	console.info("====hello...")
 
 	for (const post of posts) {
 		// convert markdown to html string
