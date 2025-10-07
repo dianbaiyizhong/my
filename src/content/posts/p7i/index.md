@@ -34,4 +34,4 @@ https://galaxystore.samsung.com/detail/com.zhenmei.p7i
 ![Alt text](./images/pc2.png)
 
 ## 移动端web
-![Alt text](./images/mobile.png)
+![50w](./images/mobile.png)

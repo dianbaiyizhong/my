@@ -2,9 +2,9 @@
 title: 梦幻西游-答题神器
 published: 2023-01-15
 description: This is an article for testing the page encryption feature
-encrypted: true
+encrypted: false
 image: ./cover.png
-pinned: true
+pinned: false
 password: "123456"
 tags: ["Test", "Encryption"]
 category: "Technology"

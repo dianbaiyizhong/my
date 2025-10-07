@@ -1,7 +1,7 @@
 ---
-title: 曼巴吐讯App-鸿蒙版
-published: 2025-10-01
-pinned: true
+title: 曼巴吐讯App-安卓版
+published: 2025-08-01
+pinned: false
 description: A simple example of a Markdown blog post.
 tags: [Markdown, Blogging]
 category: Examples
@@ -11,7 +11,7 @@ sourceLink: "https://github.com/emn178/markdown"
 draft: false
 ---
 
-# 曼巴吐讯App-鸿蒙版
+# 曼巴吐讯App-安卓版
 
 Preview:
 
