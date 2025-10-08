@@ -4,22 +4,21 @@ published: 2024-05-01
 updated: 2024-11-29
 description: 'Read more about Markdown features in Mizuki'
 image: ''
-tags: [Demo, Example, Markdown, mizuki]
-category: 'Examples'
+tags: [NBA, android, widget]
+category: 'app'
 draft: false 
-series: "Mizuki"
 ---
 
-## GitHub Repository Cards
-You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API. 
 
-::github{repo="matsuzaka-yuki/Mizuki"}
+::github{repo="dianbaiyizhong/nba-widgets"}
 
-Create a GitHub repository card with the code `::github{repo="matsuzaka-yuki/Mizuki"}`.
 
-```markdown
-::github{repo="matsuzaka-yuki/Mizuki"}
-```
+## 预览图
+![50w](./images/01.jpg)
+
+## 视频演示
+<iframe  width="100%" height="600px" src="//player.bilibili.com/player.html?isOutside=true&aid=113610609203673&bvid=BV1ntq5YrEsE&cid=27223982740&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
 
 ## Admonitions
 
@@ -84,11 +83,3 @@ This is a note with a custom title.
 > The GitHub syntax is also supported.
 ```
 
-### Spoiler
-
-You can add spoilers to your text. The text also supports **Markdown** syntax.
-
-The content :spoiler[is hidden **ayyy**]!
-
-```markdown
-The content :spoiler[is hidden **ayyy**]!
